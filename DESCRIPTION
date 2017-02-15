@@ -1,0 +1,25 @@
+Package: ForITdev
+Type: Package
+Title: Functions from the 2nd Italian Forest Inventory (INFC)
+Version: 1.1-1
+Encoding: UTF-8
+Authors@R: c(person(“Nicola”, “Puletti”,
+    role=c("aut", "cre"),
+    email=“nicola.puletti@gmail.com”),
+    person(“Maurizio”, “Marchi”, role="aut"),
+    person(“Cristiano”, “Castaldi”, role="ctb"),
+    person(“Fabrizio”, “Clementel”, role="ctb"),
+    person(“Antonio”, “Floris”, role="ctb"),
+    person(“Roberto”, “Scotti”, role="ctb"))
+Author: Nicola Puletti
+Maintainer: Nicola Puletti <nicola.puletti@gmail.com>
+Description: This package allows to estimate tree volume and biomass by functions from Italian NFI
+License: GPL-3 | file LICENSE
+Depends:
+    R (>= 3.1.2),
+    sqldf
+Imports:
+    sqldf
+LazyLoad: yes
+LazyData: yes
+URL: nicolapuletti.wordpress.it
